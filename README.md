@@ -11,6 +11,14 @@ This creates the untracked file `dist/td_light_bridge.zip`. Install that archive
 **Edit → Preferences → Add-ons → Install…**, then enable **TouchDesigner Light
 Bridge**. Open the **TD Light** tab in the 3D View sidebar (`N`) to configure it.
 
+## Downloading from Releases
+
+Published versions include `td_light_bridge.zip` in the repository's
+[Releases](https://github.com/karmanovns/karmanovns/releases) section. Download that
+asset and install it directly in Blender. Maintainers publish a new release by pushing
+a tag such as `v1.0.0`; GitHub Actions builds the ZIP from the complete add-on source
+and attaches it to the corresponding release automatically.
+
 ## Mapping names independently
 
 The add-on does not use Blender object names to decode packets. Add one mapping for
